@@ -1,0 +1,27 @@
+@import url(https://fonts.google.com/specimen/Inter);
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+:root {
+    --blue200: hsl(224, 100%, 95%);
+    --blue400: hsl(220, 100%, 64%);
+    --blue600: hsl(228, 100%, 60%);
+    --blue700: hsl(228, 99%, 58%);
+    --paragraph: 17px;
+    --descriptions: 14px;
+
+}
+
+body {
+    background: var(--blue600);
+    font-size: var(--paragraph);
+    font-family: 'Inter', sans-serif;
+}
