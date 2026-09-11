@@ -26,10 +26,12 @@ body {
     font-size: var(--paragraph);
     font-family: 'Inter', sans-serif;
     display: flex;
-    color: var(--text);
+    color: var(--bodytext);
     flex-direction: column;
     height: 100vh;
 }
+
+/* Head Section */
 
 .header {
     display: flex;
@@ -72,4 +74,32 @@ hr {
     height: 2px;
     background: var(--bodytext);
     display: block;
+}
+
+main {
+    display: grid;
+    flex: 1;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hero-section {
+    padding: 20px 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-section h1 {
+    font-weight: 500;
+    font-size: 5rem;
+    line-height: 1.12;
+    margin: 0 0 22px 0;
+    letter-spacing: -0.02em;
+}
+
+.hero-section p {
+    max-width: 400px;
+    font-size: var(--paragraph);
+    line-height: 1.6;
+    margin: 0;
 }
