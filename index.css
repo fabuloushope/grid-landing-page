@@ -11,10 +11,11 @@ html, body {
 }
 
 :root {
-    --blue200: hsl(224, 100%, 95%);
+    --bodytext: hsl(224, 100%, 95%);
     --blue400: hsl(220, 100%, 64%);
     --blue600: hsl(228, 100%, 60%);
     --blue700: hsl(228, 99%, 58%);
+    --menuop: hsl(0, 0%, 0%);
     --paragraph: 17px;
     --descriptions: 14px;
 
@@ -25,6 +26,7 @@ body {
     font-size: var(--paragraph);
     font-family: 'Inter', sans-serif;
     display: flex;
+    color: var(--text);
     flex-direction: column;
     height: 100vh;
 }
@@ -36,9 +38,38 @@ body {
     padding: 22px 44px;
 }
 
+hr {
+    border: 1px solid var(--menuop);
+}
+
 .logo {
     display: flex;
     align-items: center;
     gap: 10px;
-    font-size: var(--paragraph);
+    font-size: var(--text);
+    font-weight: 500;
+    letter-spacing: 0.01em;
+}
+
+.logo .dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--bodytext);
+    flex-shrink: 0;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    cursor: pointer;
+    padding: 4px;
+}
+
+.nav-bar span {
+    width: 22px;
+    height: 2px;
+    background: var(--bodytext);
+    display: block;
 }
