@@ -33,4 +33,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 22px 44px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: var(--paragraph);
 }
