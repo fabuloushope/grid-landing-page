@@ -138,11 +138,11 @@ main {
     fill: none;
 }
 
-.grid-col {
+/* .grid-col {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-}
+} */
 
 .stat-number {
     font-size: var(--paragraph);
@@ -162,4 +162,17 @@ main {
     color: var(--bodytext);
     margin: 0;
     max-width: 320px;
+}
+
+.grid-stat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px 44px;
 }
