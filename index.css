@@ -16,7 +16,7 @@ html, body {
     --blue600: hsl(228, 100%, 60%);
     --blue700: hsl(228, 99%, 58%);
     --menuop: hsl(0, 0%, 0%);
-    --paragraph: 15px;
+    --paragraph: 12px;
     --descriptions: 14px;
 
 }
@@ -115,7 +115,7 @@ main {
 .stat-grid {
     border-bottom: 1px solid var(--bodytext);
     border-right: 1px solid var(--bodytext);
-    padding: 45px 40px;
+    padding: 20px 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -145,7 +145,7 @@ main {
 } */
 
 .stat-number {
-    font-size: var(--paragraph);
+    /* font-size: var(--paragraph); */
     font-weight: 500;
     letter-spacing: -0.06em;
 }
@@ -168,6 +168,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 1.5rem;
 }
 
 footer {
