@@ -17,6 +17,7 @@ html, body {
     --blue700: hsl(228, 99%, 58%);
     --menuop: hsl(0, 0%, 0%);
     --paragraph: 12px;
+    --text: 17px;
     --descriptions: 14px;
 
 }
@@ -151,7 +152,7 @@ main {
 }
 
 .stat-paragraph h3 {
-    font-size: 17px;
+    font-size: var(--text);
     font-weight: 500;
     margin: 0 0 2px 0;
 }
@@ -176,4 +177,5 @@ footer {
     align-items: center;
     justify-content: space-between;
     padding: 22px 44px;
+    font-size: var(--text);
 }
