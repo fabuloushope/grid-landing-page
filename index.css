@@ -172,3 +172,11 @@ footer {
     padding: 22px 44px;
     font-size: var(--text);
 }
+
+/* Responsive Design */
+
+@media (max-width: 900px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}
