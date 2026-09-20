@@ -179,4 +179,12 @@ footer {
     main {
         grid-template-columns: 1fr;
     }
+
+    .hero-section {
+        padding: 56px 24px 32px;
+    }
+
+    .hero-section h1 {
+        font-size: 24px;
+    }
 }
