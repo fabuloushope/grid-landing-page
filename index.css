@@ -209,3 +209,9 @@ footer {
         align-items: flex-start;
     }
 }
+
+@media (max-width: 560px) {
+    .article-section {
+        grid-template-columns: 1fr;
+    }
+}
