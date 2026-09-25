@@ -15,7 +15,7 @@ html, body {
     --blue400: hsl(220, 100%, 64%);
     --blue600: hsl(228, 100%, 60%);
     --blue700: hsl(228, 99%, 58%);
-    --menuop: hsl(0, 0%, 0%);
+    --menuop: hsl(0, 0%, 0%); /* For menu overlay opacity*/
     --paragraph: 12px;
     --text: 17px;
     --descriptions: 14px;
@@ -228,7 +228,9 @@ footer {
     }
 
     footer {
-        align-items: flex-end;
-        font-size: 10x;
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+        font-size: 10px;
     }
 }
