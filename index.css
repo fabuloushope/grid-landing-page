@@ -204,9 +204,10 @@ footer {
     }
 
     footer {
-        flex-direction: column;
+        /* flex-direction: column; */
+        justify-content: space-between;
         gap: 5px;
-        align-items: flex-start;
+        align-items: center;
     }
 }
 
