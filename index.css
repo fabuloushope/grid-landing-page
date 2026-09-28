@@ -78,6 +78,13 @@ hr {
     display: block;
 }
 
+.nav-items {
+    list-style: none;
+    font-size: 17px;
+    gap: 5px;
+    padding: 10px;
+}
+
 main {
     display: grid;
     flex: 1;
