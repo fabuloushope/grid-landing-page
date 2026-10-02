@@ -187,6 +187,10 @@ footer {
         grid-template-columns: 1fr;
     }
 
+    .nav-items {
+        display: none;
+    }
+
     .hero-section {
         padding: 56px 24px 32px;
     }
