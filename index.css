@@ -81,8 +81,18 @@ hr {
 .nav-items {
     list-style: none;
     font-size: 17px;
-    gap: 5px;
+    gap: 25px;
     padding: 10px;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: var(--bodytext);
+    transition: color 0.3s ease;
+}
+
+.nav-items a:hover {
+    color: var(--blue400);
 }
 
 main {
