@@ -65,17 +65,10 @@ hr {
 
 .nav-bar {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     gap: 3px;
     cursor: pointer;
     padding: 4px;
-}
-
-.nav-bar span {
-    width: 22px;
-    height: 2px;
-    background: var(--bodytext);
-    display: block;
 }
 
 .nav-items {
@@ -85,7 +78,11 @@ hr {
     padding: 10px;
 }
 
-.nav-items a {
+.header-nav {
+    list-style: none;
+}
+
+.header-nav a {
     text-decoration: none;
     color: var(--bodytext);
     transition: color 0.3s ease;
@@ -197,9 +194,9 @@ footer {
         grid-template-columns: 1fr;
     }
 
-    .nav-items {
+    /* .nav-items {
         display: none;
-    }
+    } */
 
     .hero-section {
         padding: 56px 24px 32px;
