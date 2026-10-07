@@ -80,6 +80,7 @@ hr {
 
 .header-nav {
     list-style: none;
+    display: flex;
 }
 
 .header-nav a {
