@@ -81,6 +81,18 @@ hr {
 .header-nav {
     list-style: none;
     display: flex;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.header-nav a {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav:hover {
+    background: cadetblue;
+    border-radius: 15px;
 }
 
 .header-nav a {
