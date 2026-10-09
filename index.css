@@ -69,6 +69,8 @@ hr {
     gap: 3px;
     cursor: pointer;
     padding: 4px;
+    z-index: 3;
+    background-color: red;
 }
 
 .nav-items {
