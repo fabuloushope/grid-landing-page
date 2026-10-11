@@ -15,7 +15,7 @@ html, body {
     --blue400: hsl(220, 100%, 64%);
     --blue600: hsl(228, 100%, 60%);
     --blue700: hsl(228, 99%, 58%);
-    --menuop: hsl(0, 0%, 0%); /* For menu overlay opacity*/
+    --menuop: hsl(0, 0%, 0%);
     --paragraph: 12px;
     --text: 17px;
     --descriptions: 14px;
@@ -65,7 +65,6 @@ hr {
 
 .nav-bar {
     display: flex;
-    /* flex-direction: column; */
     gap: 3px;
     cursor: pointer;
     padding: 4px;
@@ -208,10 +207,6 @@ footer {
     main {
         grid-template-columns: 1fr;
     }
-
-    /* .nav-items {
-        display: none;
-    } */
 
     .hero-section {
         padding: 56px 24px 32px;
