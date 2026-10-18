@@ -67,23 +67,27 @@ hr {
     display: flex;
     gap: 3px;
     cursor: pointer;
-    padding: 4px;
+    /* padding: 4px; */
     z-index: 3;
     background-color: red;
+}
+
+#navigation {
+    padding: 0;
 }
 
 .nav-items {
     list-style: none;
     font-size: 17px;
     gap: 25px;
-    padding: 10px;
+    padding: 5px;
 }
 
 .header-nav {
     list-style: none;
     display: flex;
     margin: 10px 0;
-    padding: 5px;
+    padding: 5px 10px;
 }
 
 .header-nav a {
@@ -93,7 +97,7 @@ hr {
 
 .header-nav:hover {
     background: cadetblue;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
 .header-nav a {
