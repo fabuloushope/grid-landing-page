@@ -185,6 +185,32 @@ footer {
     font-size: var(--text);
 }
 
+/* Dropdown Menu */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    right: 1rem;
+    height: 0;
+    top: 60px;
+    width: 200px;
+    background-color: var(--blue700);
+    backdrop-filter: blur 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.dropdown-menu.open {
+    height: 25%;
+}
+
+.dropdown-menu li {
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Responsive Design */
 
 @media (max-width: 900px) {
@@ -223,6 +249,10 @@ footer {
         display: block;
     }
 
+    .dropdown-menu {
+        display: block;
+    }
+
     footer {
         /* flex-direction: column; */
         justify-content: space-between;
@@ -246,6 +276,12 @@ footer {
 
     .hero-section h1 {
         font-size: 30px;
+    }
+
+    .dropdown-menu {
+        left: 2rem;
+        width: unset;
+        overflow: scroll;
     }
 
     footer {
