@@ -36,7 +36,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://grid-landing-page-topaz.vercel.app/)
+- Live Site URL: [live site URL here](https://grid-landing-page-topaz.vercel.app/)
 
 ## My process
 
