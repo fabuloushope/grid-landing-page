@@ -75,7 +75,8 @@ hr {
 }
 
 .header-nav a:hover {
-    color: rgb(136, 136, 51);
+    text-decoration: underline;
+    text-underline-offset: 4px;
 }
 
 #navigation {
@@ -85,7 +86,7 @@ hr {
 
 .navs {
     color: #fff;
-    font-size: 15px;
+    font-size: var(--descriptions);
     cursor: pointer;
     display: none;
 }
